@@ -22,8 +22,8 @@ module ALU(
         endcase
 
         //设置zero
-            if (ALUResult) zero = 0;
-            else zero = 1;
+            if (ALUResult) zero = 1;
+            else zero = 0;
     end
 
 endmodule
